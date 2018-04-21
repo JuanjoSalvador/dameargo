@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css?family=Black+Han+Sans|Open+Sans');
+
+
+html {
+    background: url('assets/background.png') no-repeat fixed center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+div.content {
+    height: 60%;
+    width: 100%;
+    position: relative;
+}
+
+div.content h1 {
+    font-family: 'Black Han Sans', sans-serif;
+    font-size: 5em;
+    color: white;
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+div.link {
+    font-family: 'Open Sans', sans-serif;
+    position: absolute;
+    top: 70%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+div.link a {
+    -webkit-border-radius: 2;
+    -moz-border-radius: 2;
+    border-radius: 2px;
+    color: #ffffff;
+    font-size: 3em;
+    background: #148bdb;
+    padding: 10px 20px 10px 20px;
+    text-decoration: none;
+}
+
+div.link a:hover {
+    background: #41b8fc;
+    text-decoration: none;
+}
